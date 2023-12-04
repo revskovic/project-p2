@@ -1,0 +1,38 @@
+.flex10{
+    text-align: center;
+    background: antiquewhite;
+    height: 70px;
+    margin-left: -8px;
+    margin-top: -10px;
+    margin-right: -8px;
+    }
+    nav {
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: -22px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+        position: relative;
+    }
+    nav ul li:hover ul {
+        display: block;
+    }
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: #857777;
+        left: 0;
+    }
+    nav ul li ul li {
+        display: block;
+    }
+    a{color: #fff;}
