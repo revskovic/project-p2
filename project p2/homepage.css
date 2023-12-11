@@ -36,3 +36,17 @@ nav ul li ul li {
     display: block;
 }
 a{color: #fff;}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.flexboxhp{
+    width: 48%;
+      height: 100px;
+      border: 1px solid antiquewhite;
+      box-sizing: border-box;
+      background: antiquewhite;
+      text-align: center;
+      height: 650px;
+}

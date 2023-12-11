@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexboxes</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column; /* Set the flex direction to column */
+      justify-content: space-between;
+      height: 300px; /* Set a fixed height for demonstration purposes */
+    }
+
+    .flexbox {
+      width: 48%;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      padding: 10px; /* Add padding for better visual appearance */
+      margin-bottom: 10px; /* Add margin between flexboxes */
+    }
+
+    .longer-flexbox {
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="flexbox">
+    <p>Text 1 - Line 1</p>
+    <p>Text 1 - Line 2</p>
+  </div>
+  <div class="flexbox longer-flexbox">
+    <p>Text 2 - Line 1</p>
+    <p>Text 2 - Line 2</p>
+    <p>Text 2 - Line 3</p>
+  </div>
+</div>
+
+</body>
+</html>
+
